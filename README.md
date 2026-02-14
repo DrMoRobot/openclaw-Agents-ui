@@ -134,4 +134,4 @@ Upcoming Features
 
 🎯 Skills/Workflows shortcuts
 
-<p align="center">Made with ❤️ using <a href="https://streamlit.io">Streamlit</a> & <a href="https://github.com/spos/openclaw">OpenClaw</a></p> <p align="center"> <a href="https://github.com/DrMoRobot/openclaw-Agents-ui">⭐ Star this repo</a> • <a href="https://github.com/DrMoRobot/openclaw-Agents-ui/issues">📝 Report Issue</a> • <a href="[https://t.me/DrMoRobot_Channel](https://t.me/Aiforeveryone2026)">💬 Join Community</a> </p> ```
+<p align="center">Made with ❤️ using <a href="https://streamlit.io">Streamlit</a> & <a href="https://github.com/spos/openclaw">OpenClaw</a></p> <p align="center"> <a href="https://github.com/DrMoRobot/openclaw-Agents-ui">⭐ Star this repo</a> • <a href="https://github.com/DrMoRobot/openclaw-Agents-ui/issues">📝 Report Issue</a> • <a href="https://t.me/Aiforeveryone2026">💬 Join Community</a> </p> ```
