@@ -1,295 +1,351 @@
-# 🤖 OpenClaw Agents UI
+<div align="center">
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+  <!-- Animated Logo -->
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Robot.png" alt="OpenClaw Agents UI Logo" width="120" height="120" />
 
-A modern web interface for managing and chatting with OpenClaw Agents using Streamlit.
+  <h1>🤖 OpenClaw Agents UI</h1>
+  
+  <p>
+    <strong>Next-Generation Web Interface for OpenClaw AI Agents</strong>
+  </p>
+
+  <!-- Badges -->
+  <p>
+    <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.8+"></a>
+    <a href="https://streamlit.io"><img src="https://img.shields.io/badge/Built%20with-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"></a>
+    <a href="https://github.com/DrMoRobot/openclaw-Agents-ui/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge&logo=open-source-initiative&logoColor=white" alt="MIT License"></a>
+    <a href="#"><img src="https://img.shields.io/badge/Version-v0.8--fixed-blueviolet?style=for-the-badge&logo=github&logoColor=white" alt="Version"></a>
+  </p>
+
+  <p>
+    <a href="#-quick-start">🚀 Quick Start</a> •
+    <a href="#-features">✨ Features</a> •
+    <a href="#-screenshots">📸 Screenshots</a> •
+    <a href="#-documentation">📚 Docs</a>
+  </p>
+
+  <!-- Animated Divider -->
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="Divider" />
+
+</div>
+
+## 🎯 Overview
+
+**OpenClaw Agents UI** transforms the way you interact with AI agents. Built on top of the powerful OpenClaw CLI and the elegant Streamlit framework, this interface delivers a **seamless, intuitive, and visually stunning** experience for managing and conversing with your AI agents.
+
+> 💡 *"Where powerful AI meets beautiful design"*
+
+### ✨ What Makes Us Different?
+
+- **🚀 Zero-Config Setup** — Get running in under 60 seconds
+- **🎨 Modern UI/UX** — Clean, responsive, and dark-mode friendly
+- **⚡ Real-Time Streaming** — Watch your agents think in real-time
+- **🔧 Fully Customizable** — Tailor every agent to your needs
 
 ---
 
-## ✨ Features
+## 🌟 Features
 
-- 💬 **Interactive Chat** - Modern chat interface with streaming responses
-- 🤖 **Agent Management** - Create, delete, and update agent identities
-- 🚀 **Auto Terminal Launcher** - Opens terminal automatically to create new agents
-- ⚙️ **Advanced Options** - Thinking level, verbose mode, timeout settings
-- 🎨 **Modern UI** - Clean Streamlit interface with sidebar controls
+<table>
+<tr>
+<td width="50%">
+
+### 💬 Interactive Chat Experience
+- **Streaming responses** — See replies as they generate
+- **Rich chat history** — Persistent conversation context
+- **Smart suggestions** — Context-aware prompt hints
+- **Export conversations** — Save chats as Markdown or JSON
+
+</td>
+<td width="50%">
+
+### 🤖 Intelligent Agent Management
+- **One-click creation** — Auto-terminal launcher integration
+- **Identity customization** — Name, theme, emoji & personality
+- **Advanced controls** — Thinking depth, verbosity, timeout settings
+- **Multi-agent support** — Switch between agents seamlessly
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### ⚙️ Advanced Configuration
+- **Thinking levels:** Off → Minimal → Low → Medium → High → X-High
+- **Verbose modes:** Off / On / Full debug output
+- **Timeout controls:** 1-300 seconds flexibility
+- **Local mode:** Run entirely offline
+- **JSON mode:** Raw API responses
+
+</td>
+<td width="50%">
+
+### 🎨 Beautiful Interface
+- **Streamlit-native** — Fast, responsive, and reliable
+- **Sidebar controls** — Non-intrusive settings panel
+- **Visual feedback** — Loading states and progress indicators
+- **Cross-platform** — Windows, macOS, and Linux
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 📋 Requirements
+## 🚀 Quick Start
 
-Before you start, make sure you have:
+Get up and running in **3 simple steps**:
 
-- **Python 3.8** or higher
-- **OpenClaw CLI** installed and configured
-- **pip** (Python package manager)
+### Prerequisites
 
-### Check Your Python Version
 ```bash
+# ✅ Python 3.8 or higher
 python --version
-# or
-python3 --version
-🚀 Quick Start - Installation Guide
-Step 1️⃣: Install Python Dependencies
-First, install the required package:
 
-bash
-pip install streamlit
-If you're on Mac/Linux, you might need:
-
-bash
-pip3 install streamlit
-Verify Installation:
-
-bash
-streamlit --version
-Step 2️⃣: Install OpenClaw CLI
-Follow the instructions at: https://github.com/spos/openclaw
-
-Or use:
-
-bash
+# ✅ OpenClaw CLI installed
 pip install openclaw
-Configure OpenClaw:
-
-bash
 openclaw configure
-Step 3️⃣: Clone the Repository
+Step 1: Install Dependencies
 bash
+# Install Streamlit
+pip install streamlit
+
+# Verify installation
+streamlit --version
+Step 2: Clone & Launch
+bash
+# Clone the repository
 git clone https://github.com/DrMoRobot/openclaw-Agents-ui.git
 cd openclaw-Agents-ui
-Step 4️⃣: Run the Application
-Option A: Using the Quick Launch Script (Recommended)
-On Windows (PowerShell or CMD):
 
-bash
-python -m streamlit run streamlit_agent_manager.py
-On Mac/Linux:
-
-bash
-./run-openclaw-ui.sh
-Or manually:
-
-bash
-streamlit run streamlit_agent_manager.py
-Option B: Manual Execution
-bash
-streamlit run streamlit_agent_manager.py
-🌐 What Happens After You Run It
-Local Server Starts: The application will open in your default browser
-
-URL: Usually http://localhost:8501
-
-Dashboard Opens: You'll see the main interface with two tabs:
-
-Chat Tab - Chat with your agents
-
-Agents Tab - Manage your agents
-
-If Port 8501 is Already in Use
-Run on a different port:
-
-bash
-streamlit run streamlit_agent_manager.py --server.port 8502
-📁 Project Structure
+# Launch the application
+./run-openclaw-ui.sh        # Mac/Linux
+# OR
+python -m streamlit run streamlit_agent_manager.py  # Windows
+Step 3: Start Chatting! 🎉
 text
-openclaw-Agents-ui/
-├── streamlit_agent_manager.py    # Main application code
-├── run-openclaw-ui.sh             # Quick launch script
-├── README.md                       # This file
-├── LICENSE                         # MIT License
-├── .gitignore                      # Git ignore rules
-└── screenshots/                    # UI screenshots
-🛠️ How to Use the Application
-Chat Tab 💬
-Select your active agent from the sidebar dropdown
+🌐 Your browser will open automatically at: http://localhost:8501
+<details> <summary>🔧 <strong>Port already in use?</strong></summary>
+bash
+# Run on a different port
+streamlit run streamlit_agent_manager.py --server.port 8502
+</details>
+📸 Screenshots
+<div align="center">
+💬 Chat Interface	🤖 Agent Management
+<img src="screenshots/chat-tab.png" alt="Chat Interface" width="400" />	<img src="screenshots/agents-tab.png" alt="Agent Management" width="400" />
+Seamless conversation flow	Create, customize & manage
+⚙️ Advanced Settings	🎨 Identity Customization
+<img src="screenshots/settings.png" alt="Settings" width="400" />	<img src="screenshots/identity.png" alt="Identity" width="400" />
+Fine-tune your experience	Make it yours
+</div>
+📚 Documentation
+🖥️ Platform-Specific Guides
+<details> <summary><strong>🪟 Windows Installation</strong></summary>
+powershell
+# 1. Install Python from https://python.org/downloads/
 
-Type your message in the chat input field
+# 2. Open PowerShell or CMD as Administrator
 
-Press Enter or click Send
+# 3. Install dependencies
+pip install streamlit openclaw
 
-View real-time responses in the conversation history
+# 4. Configure OpenClaw
+openclaw configure
 
-Agents Tab 🤖
-Refresh Agents List
-Click "Refresh" to load all available agents from OpenClaw CLI
+# 5. Clone and run
+git clone https://github.com/DrMoRobot/openclaw-Agents-ui.git
+cd openclaw-Agents-ui
+python -m streamlit run streamlit_agent_manager.py
 
-Create New Agent
-Click "Create New Agent"
+# 6. Open http://localhost:8501 in your browser
+</details> <details> <summary><strong>🍎 macOS Installation</strong></summary>
+bash
+# 1. Install Python (if not present)
+brew install python3
 
-A terminal window will open automatically
+# 2. Install dependencies
+pip3 install streamlit openclaw
 
-Follow the OpenClaw prompts to create a new agent
+# 3. Configure OpenClaw
+openclaw configure
 
-Return to the UI and refresh to see your new agent
+# 4. Clone and run
+git clone https://github.com/DrMoRobot/openclaw-Agents-ui.git
+cd openclaw-Agents-ui
+chmod +x run-openclaw-ui.sh
+./run-openclaw-ui.sh
 
-Update Agent Identity
-Select an agent
+# 5. Open http://localhost:8501 in your browser
+</details> <details> <summary><strong>🐧 Linux Installation</strong></summary>
+bash
+# 1. Install Python
+sudo apt-get update
+sudo apt-get install python3 python3-pip
 
-Click "Update Identity"
+# 2. Install dependencies
+pip3 install streamlit openclaw
 
-Change:
+# 3. Configure OpenClaw
+openclaw configure
 
-Name: Agent's display name
+# 4. Clone and run
+git clone https://github.com/DrMoRobot/openclaw-Agents-ui.git
+cd openclaw-Agents-ui
+chmod +x run-openclaw-ui.sh
+./run-openclaw-ui.sh
 
-Theme: Color theme (blue, green, red, etc.)
-
-Emoji: Choose an emoji to represent the agent
-
-Delete Agent
-Select an agent
-
-Click "Delete Agent"
-
-Confirm the deletion
-
-Advanced Options ⚙️
-Access from the left sidebar:
+# 5. Open http://localhost:8501 in your browser
+</details>
+🎮 Usage Guide
+💬 Chatting with Agents
+text
+1. Select your agent from the sidebar dropdown
+2. Type your message in the chat input
+3. Press Enter or click Send
+4. Watch the streaming response in real-time
+5. Continue the conversation naturally
+🤖 Managing Agents
+Action	Steps
+Create Agent	Click "Create New Agent" → Follow terminal prompts → Refresh list
+Update Identity	Select agent → Click "Update Identity" → Modify name/theme/emoji
+Delete Agent	Select agent → Click "Delete Agent" → Confirm
+Refresh List	Click "Refresh" to sync with OpenClaw CLI
+⚙️ Advanced Options
+Access these from the left sidebar:
 
 Option	Description	Values
-Thinking Level	Control reasoning depth	off, minimal, low, medium, high, xhigh
-Verbose	Output detail level	off, on, full
+Thinking Level	Control reasoning depth	off → xhigh
+Verbose Mode	Output detail level	off / on / full
 Timeout	Request timeout (seconds)	1-300
 Local Mode	Run with local models only	Toggle On/Off
 JSON Mode	Return raw JSON responses	Toggle On/Off
-🖼️ Screenshots
-
-🆘 Troubleshooting
-Issue: "Command not found: streamlit"
-Solution:
-
-bash
-pip install --upgrade streamlit
-Issue: "OpenClaw CLI not found"
-Solution: Install OpenClaw first:
-
-bash
-pip install openclaw
-openclaw configure
-Issue: "Port 8501 already in use"
-Solution: Use a different port:
-
-bash
-streamlit run streamlit_agent_manager.py --server.port 8502
-Issue: "Permission denied" on run-openclaw-ui.sh
-Solution: Make it executable (Mac/Linux only):
-
-bash
-chmod +x run-openclaw-ui.sh
-Issue: "No module named 'streamlit'"
-Solution: Install Streamlit:
-
-bash
-pip install streamlit
-📚 System Requirements
+🏗️ Architecture
+text
+openclaw-Agents-ui/
+├── 📄 streamlit_agent_manager.py    # Main application entry point
+├── 🔧 run-openclaw-ui.sh            # Quick launch script (Unix)
+├── 📖 README.md                      # This beautiful documentation
+├── 📜 LICENSE                        # MIT License
+├── 🚫 .gitignore                     # Git ignore rules
+└── 📸 screenshots/                   # UI screenshots & demos
+🔄 Data Flow
+text
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│   Streamlit UI  │────▶│  Agent Manager  │────▶│  OpenClaw CLI   │
+│                 │     │                 │     │                 │
+│  -  Chat Input   │     │  -  Create       │     │  -  Agent API    │
+│  -  Sidebar      │     │  -  Delete       │     │  -  LLM Backend  │
+│  -  Settings     │     │  -  Update       │     │                 │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+         │                                               │
+         └───────────────────────────────────────────────┘
+                            Response Stream
+💻 System Requirements
 Component	Minimum	Recommended
-Python	3.8	3.9+
-RAM	2GB	4GB+
-Disk Space	500MB	1GB+
-OS	Windows/Mac/Linux	Any
-🤝 Contributing
-Contributions are welcome! Please:
-
-Fork the repository
-
-Create a feature branch (git checkout -b feature/amazing-feature)
-
-Commit your changes (git commit -m 'Add amazing feature')
-
-Push to the branch (git push origin feature/amazing-feature)
-
-Open a Pull Request
-
-📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-📧 Contact & Community
-GitHub: @DrMoRobot
-
-Email: muhammadabdulhussien@gmail.com
-
-Community: Join our Telegram Channel
-
-🔄 Development Status
-Current Version: v0.8-fixed
-
-Recent Updates ✅
-✅ Fixed agent ID reading from JSON (id field instead of agentId)
-
-✅ Modern chat interface with st.chat_message & st.chat_input
-
-✅ Auto terminal launcher for agent creation
-
-✅ Advanced agent options (thinking, verbose, timeout)
-
-✅ Agent identity customization
-
-✅ UI Screenshots added
-
-Upcoming Features 🔮
-📊 Agent conversation history visualization
-
-💾 Save/Load chat sessions
-
-🔔 Agent notifications
-
-🎯 Skills/Workflows shortcuts
-
-🌍 Multi-language support
-
-📱 Mobile-friendly interface
-
-📖 Complete Installation Walkthrough
-For Windows Users 🪟
+Python	3.8	3.10+
+RAM	2 GB	4 GB+
+Disk Space	500 MB	1 GB+
+OS	Windows/Mac/Linux	Latest versions
+Browser	Chrome/Firefox/Edge	Latest versions
+🛠️ Troubleshooting
+<details> <summary><strong>❌ "Command not found: streamlit"</strong></summary>
 bash
-# 1. Install Python (if not installed)
-# Download from https://www.python.org/downloads/
+# Solution: Reinstall Streamlit
+pip install --upgrade streamlit
 
-# 2. Open Command Prompt or PowerShell
-
-# 3. Install Streamlit
-pip install streamlit
-
-# 4. Install OpenClaw
+# Verify installation
+streamlit --version
+</details> <details> <summary><strong>❌ "OpenClaw CLI not found"</strong></summary>
+bash
+# Solution: Install and configure OpenClaw
 pip install openclaw
 openclaw configure
-
-# 5. Clone the repository
-git clone https://github.com/DrMoRobot/openclaw-Agents-ui.git
-cd openclaw-Agents-ui
-
-# 6. Run the application
-python -m streamlit run streamlit_agent_manager.py
-
-# 7. Open your browser to http://localhost:8501
-For Mac/Linux Users 🐧
+</details> <details> <summary><strong>❌ "Port 8501 already in use"</strong></summary>
 bash
-# 1. Install Python (if not installed)
-brew install python3  # Mac
-sudo apt-get install python3  # Linux
-
-# 2. Open Terminal
-
-# 3. Install Streamlit
-pip3 install streamlit
-
-# 4. Install OpenClaw
-pip3 install openclaw
-openclaw configure
-
-# 5. Clone the repository
-git clone https://github.com/DrMoRobot/openclaw-Agents-ui.git
-cd openclaw-Agents-ui
-
-# 6. Make script executable
+# Solution: Use a different port
+streamlit run streamlit_agent_manager.py --server.port 8502
+# Or any port: 8503, 8504, etc.
+</details> <details> <summary><strong>❌ "Permission denied" on run script</strong></summary>
+bash
+# Solution: Make script executable (Mac/Linux only)
 chmod +x run-openclaw-ui.sh
 
-# 7. Run the application
+# Then run again
 ./run-openclaw-ui.sh
+</details> <details> <summary><strong>❌ "No module named 'streamlit'"</strong></summary>
+bash
+# Solution: Install Streamlit
+pip install streamlit
 
-# 8. Open your browser to http://localhost:8501
-Made with ❤️ using Streamlit & OpenClaw
+# For Mac/Linux use pip3 if needed
+pip3 install streamlit
+</details>
+🗺️ Roadmap
+✅ Completed (v0.8)
+ Fixed agent ID reading from JSON
 
-⭐ Star this repo • 📝 Report Issue • 💬 Join Community
+ Modern chat interface with st.chat_message & st.chat_input
+
+ Auto terminal launcher for agent creation
+
+ Advanced agent options (thinking, verbose, timeout)
+
+ Agent identity customization
+
+ UI Screenshots added
+
+🔮 Coming Soon
+ 📊 Agent conversation history visualization
+
+ 💾 Save/Load chat sessions
+
+ 🔔 Real-time agent notifications
+
+ 🎯 Skills/Workflows shortcuts
+
+ 🌍 Multi-language support (Arabic, Chinese, Spanish, etc.)
+
+ 📱 Enhanced mobile-friendly interface
+
+ 🔐 User authentication system
+
+ 🌐 Cloud deployment templates
+
+🤝 Contributing
+We welcome contributions from the community! Here's how you can help:
+
+bash
+# 1. Fork the repository
+
+# 2. Create your feature branch
+git checkout -b feature/amazing-feature
+
+# 3. Commit your changes
+git commit -m '✨ Add amazing feature'
+
+# 4. Push to the branch
+git push origin feature/amazing-feature
+
+# 5. Open a Pull Request
+📋 Contribution Guidelines
+🐛 Bug Reports: Use GitHub Issues with detailed steps
+
+💡 Feature Requests: Open an issue with the enhancement label
+
+🔧 Pull Requests: Ensure code follows existing style
+
+📖 Documentation: Help improve our docs!
+
+📞 Support & Community
+<div align="center">
+Platform	Link
+🐙 GitHub	@DrMoRobot
+📧 Email	muhammadabdulhussien@gmail.com
+💬 Telegram	Join our Community
+🐦 Twitter	@YourHandle
+</div>
+📜 License
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+<div align="center"> <h3>⭐ Star this repository if you find it helpful!</h3> <p> <a href="https://github.com/DrMoRobot/openclaw-Agents-ui/stargazers">⭐ Star</a> • <a href="https://github.com/DrMoRobot/openclaw-Agents-ui/issues">🐛 Report Bug</a> • <a href="https://github.com/DrMoRobot/openclaw-Agents-ui/issues">💡 Request Feature</a> </p> <br> <p><strong>Made with ❤️ using Streamlit & OpenClaw</strong></p> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Robot.png" alt="Robot" width="60" /> <p><sub>© 2024 OpenClaw Agents UI. All rights reserved.</sub></p> </div> ```
