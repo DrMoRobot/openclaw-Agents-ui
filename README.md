@@ -73,20 +73,6 @@ Local Mode: Run with local models only
 JSON Mode: Return raw JSON responses
 
 🖼️ Screenshots
-Agents Management Tab
-Agents Overview
-
-Create New Agent
-Create Agent
-
-Agent Chat Interface
-Chat Interface
-
-Chat with Agent
-Chat Active
-
-Chat Tab View
-Chat Tab
 
 🤝 Contributing
 Contributions are welcome! Please:
@@ -108,8 +94,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 GitHub: @DrMoRobot
 
 Email: muhammadabdulhussien@gmail.com
-
-Telegram Channel: @DrMoRobot_Channel
 
 🔄 Development Status
 Current Version: v0.8-fixed
@@ -136,4 +120,4 @@ Upcoming Features
 
 🎯 Skills/Workflows shortcuts
 
-<p align="center">Made with ❤️ using <a href="https://streamlit.io">Streamlit</a> & <a href="https://github.com/spos/openclaw">OpenClaw</a></p> <p align="center"> <a href="https://github.com/DrMoRobot/openclaw-Agents-ui">⭐ Star this repo</a> • <a href="https://github.com/DrMoRobot/openclaw-Agents-ui/issues">📝 Report Issue</a> • <a href="https://t.me/DrMoRobot_Channel">💬 Join Community</a> </p> ```
+<p align="center">Made with ❤️ using <a href="https://streamlit.io">Streamlit</a> & <a href="https://github.com/spos/openclaw">OpenClaw</a></p> <p align="center"> <a href="https://github.com/DrMoRobot/openclaw-Agents-ui">⭐ Star this repo</a> • <a href="https://github.com/DrMoRobot/openclaw-Agents-ui/issues">📝 Report Issue</a> • <a href="https://t.me/Aiforeveryone2026">💬 Join Community</a> </p> ```
