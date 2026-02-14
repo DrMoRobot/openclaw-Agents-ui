@@ -1,4 +1,3 @@
-text
 # 🤖 OpenClaw Agents UI
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
@@ -20,15 +19,15 @@ A modern web interface for managing and chatting with OpenClaw Agents using Stre
 - Python 3.8+
 - [OpenClaw CLI](https://github.com/spos/openclaw) installed and configured
 - Streamlit:
-  ```bash
-  pip install streamlit
+```bash
+pip install streamlit
 🚀 Quick Start
+Clone the repository
 bash
-# Clone the repository
 git clone https://github.com/DrMoRobot/openclaw-Agents-ui.git
 cd openclaw-Agents-ui
-
-# Run the application
+Run the application
+bash
 streamlit run streamlit_agent_manager.py
 Or use the included script:
 
@@ -38,11 +37,11 @@ bash
 text
 openclaw-Agents-ui/
 ├── streamlit_agent_manager.py    # Main application code
-├── run-openclaw-ui.sh            # Quick launch script
-├── README.md                     # This file
-├── LICENSE                       # MIT License
-├── .gitignore                    # Git ignore rules
-└── screenshots/                  # UI screenshots
+├── run-openclaw-ui.sh             # Quick launch script
+├── README.md                       # This file
+├── LICENSE                         # MIT License
+├── .gitignore                      # Git ignore rules
+└── screenshots/                    # UI screenshots
 🛠️ Usage
 Chat Tab
 Select your active agent from the sidebar
@@ -54,7 +53,7 @@ View conversation history in real-time
 Agents Tab
 Refresh agents list - Load agents from OpenClaw CLI
 
-Create new agent - Opens terminal to run openclaw agents add <id>
+Create new agent - Opens terminal to run openclaw agents add
 
 Update identity - Change name, theme, and emoji
 
@@ -74,7 +73,7 @@ Local Mode: Run with local models only
 JSON Mode: Return raw JSON responses
 
 🖼️ Screenshots
-Agents Management Tab
+Agents Management Tab - Overview
 Agents Overview
 
 Create New Agent
@@ -83,11 +82,11 @@ Create Agent
 Agent Chat Interface
 Chat Interface
 
-Chat with Agent
+Chat with Agent - Active Chat
 Chat Active
 
-Chat Tab View
-Chat Tab
+Chat Tab - View Chat
+View Chat Tab
 
 🤝 Contributing
 Contributions are welcome! Please:
@@ -107,6 +106,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 📧 Contact & Community
 GitHub: @DrMoRobot
+
 Email: muhammadabdulhussien@gmail.com
 
 🔄 Development Status
@@ -134,4 +134,6 @@ Upcoming Features
 
 🎯 Skills/Workflows shortcuts
 
-<p align="center">Made with ❤️ using <a href="https://streamlit.io">Streamlit</a> & <a href="https://github.com/spos/openclaw">OpenClaw</a></p> <p align="center"> <a href="https://github.com/DrMoRobot/openclaw-Agents-ui">⭐ Star this repo</a> • <a href="https://github.com/DrMoRobot/openclaw-Agents-ui/issues">📝 Report Issue</a> • <a href="https://t.me/DrMoRobot_Channel">💬 Join Community</a> </p> ```
+Made with ❤️ using Streamlit & OpenClaw
+
+⭐ Star this repo • 📝 Report Issue • 💬 Join Community
