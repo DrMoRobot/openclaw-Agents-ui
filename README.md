@@ -104,13 +104,6 @@ Open a Pull Request
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-📧 Contact & Community
-GitHub: @DrMoRobot
-
-Email: muhammadabdulhussien@gmail.com
-
-Telegram Channel: @DrMoRobot_Channel
-
 🔄 Development Status
 Current Version: v0.8-fixed
 
