@@ -342,8 +342,8 @@ git push origin feature/amazing-feature
 Platform	Link
 🐙 GitHub	@DrMoRobot
 📧 Email	muhammadabdulhussien@gmail.com
-💬 Telegram	Join our Community
-🐦 Twitter	@YourHandle
+| 💬 **Telegram** | [Join our Community](https://t.me/Aiforeveryone2026) |
+
 </div>
 📜 License
 This project is licensed under the MIT License — see the LICENSE file for details.
