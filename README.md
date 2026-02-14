@@ -337,12 +337,18 @@ git push origin feature/amazing-feature
 
 📖 Documentation: Help improve our docs!
 
-📞 Support & Community
+## 📞 Support & Community
+
 <div align="center">
-Platform	Link
-🐙 GitHub	@DrMoRobot
-📧 Email	muhammadabdulhussien@gmail.com
+
+| Platform | Link |
+|:---------|:-----|
+| 🐙 **GitHub** | [@DrMoRobot](https://github.com/DrMoRobot) |
+| 📧 **Email** | [muhammadabdulhussien@gmail.com](mailto:muhammadabdulhussien@gmail.com) |
 | 💬 **Telegram** | [Join our Community](https://t.me/Aiforeveryone2026) |
+
+</div>
+
 
 </div>
 📜 License
