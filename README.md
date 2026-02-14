@@ -1,3 +1,4 @@
+text
 # 🤖 OpenClaw Agents UI
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
@@ -104,6 +105,10 @@ Open a Pull Request
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+📧 Contact & Community
+GitHub: @DrMoRobot
+Email: muhammadabdulhussien@gmail.com
+
 🔄 Development Status
 Current Version: v0.8-fixed
 
@@ -118,6 +123,8 @@ Recent Updates
 
 ✅ Agent identity customization
 
+✅ UI Screenshots added
+
 Upcoming Features
 📊 Agent conversation history visualization
 
@@ -127,4 +134,4 @@ Upcoming Features
 
 🎯 Skills/Workflows shortcuts
 
-<p align="center">Made with ❤️ using <a href="https://streamlit.io">Streamlit</a> & <a href="https://github.com/spos/openclaw">OpenClaw</a></p> <p align="center"> <a href="https://github.com/DrMoRobot/openclaw-Agents-ui">⭐ Star this repo</a> • <a href="https://github.com/DrMoRobot/openclaw-Agents-ui/issues">📝 Report Issue</a> • <a href="https://t.me/Aiforeveryone2026">💬 Join Community</a> </p> ```
+<p align="center">Made with ❤️ using <a href="https://streamlit.io">Streamlit</a> & <a href="https://github.com/spos/openclaw">OpenClaw</a></p> <p align="center"> <a href="https://github.com/DrMoRobot/openclaw-Agents-ui">⭐ Star this repo</a> • <a href="https://github.com/DrMoRobot/openclaw-Agents-ui/issues">📝 Report Issue</a> • <a href="https://t.me/DrMoRobot_Channel">💬 Join Community</a> </p> ```
