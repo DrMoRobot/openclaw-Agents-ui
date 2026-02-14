@@ -127,7 +127,7 @@ cd openclaw-Agents-ui
 # Launch the application
 ./run-openclaw-ui.sh        # Mac/Linux
 # OR
-python -m streamlit run streamlit_agent_manager.py  # Windows
+python3 -m streamlit run streamlit_agent_manager.py  # Windows
 ```
 
 ### Step 3: Start Chatting! 🎉
